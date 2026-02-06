@@ -1,0 +1,11 @@
+.photo {
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.quote {
+  color: #555;
+  font-style: italic;
+  margin: 10px 0;
+}
