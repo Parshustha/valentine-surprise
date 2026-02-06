@@ -1,56 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Will you be my Valentine?</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: radial-gradient(circle at top, #ff9a9e, #fecfef);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      color: #2b0b0b;
-      text-align: center;
-    }
-    h1 { font-size: 3rem; margin-bottom: 0.5rem; }
-    p { font-size: 1.2rem; max-width: 500px; }
-    .buttons {
-      margin-top: 2rem;
-      display: flex;
-      gap: 1rem;
-    }
-    button {
-      padding: 0.7rem 1.4rem;
-      border-radius: 999px;
-      border: none;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    .yes { background: #ff4b5c; color: white; }
-    .no { background: white; color: #ff4b5c; }
-  </style>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Will you be my Valentine, <span id="name">Love</span>?</h1>
-  <p>
-    I made this little page just for you, because GitHub + love felt like the perfect combo.
-  </p>
-  <div class="buttons">
-    <button class="yes" onclick="sayYes()">Yes 💖</button>
-<button id="noBtn" class="no" onclick="sayNo()">No 🙈</button>
+
+  <div class="container">
+    <h1>Will you be my Valentine? 💕</h1>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes 😍</button>
+      <button id="noBtn">No 🙄</button>
+    </div>
   </div>
 
-  <script>
-    function sayYes() {
-      alert("Best. Commit. Ever. 💘");
-    }
-    function sayNo() {
-      alert("This action is not allowed. Please try again. 😜");
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
+
